@@ -50,6 +50,9 @@ body{
     text-shadow:0 0 25px var(--main-color);
 
 }
+.navbar{
+    transition: 0.3s;
+}
 .navbar a{
     font-size: 1.8rem;
     margin-left: 4rem;
@@ -63,20 +66,17 @@ body{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color)
 }
+.navbar.scrolled{
+    background-color: var(--second-color);
+    padding: 2rem 12% 2rem;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.3s;
+}
 #menu-icon{
     min-height: 100vh;
     padding:10rem 12% 10rem;
 
 }
-/* .home{
-
-    display: flex;
-    align-items: center;
-    justify-content: flex;
-    text-align: center;
-    gap: 15rem;
-} */
-
 span{
     color :var(--main-color);
 }
