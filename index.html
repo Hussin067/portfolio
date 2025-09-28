@@ -1,45 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class = "header">
-        
-        <a href ="home" class="logo">My <span>Profile</span> </a>
-        <i class = " bx bx-mnue" id = "mnue-icon"></i>
-        <nav class = "navbar">
-            <a href="#home" class = "active">Home page</a>
-            <a href="#about" class = "about">About me</a>
-            <a href="#skills" class = "skills">Skills</a>
-        </nav>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">My <span>Profile</span> </a>
+      <i class="bx bx-mnue" id="mnue-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home page</a>
+        <a href="#about" class="about">About me</a>
+        <a href="#Projects" class="project">projects</a>
+      </nav>
     </header>
-    <section class = "home" id = "home">
-        <div class = "home-content">
-            <h1> my name is <span>Hussin</span></h1>
-            <h3 class = "text-animation">Welcome to my <span>Portfolio</span></h3>
-            <p> this is my portfolio website I'm a beginner web developer and this is my first project  </p>
-            <div class = "social-icons">
-                <a href = "https://www.linkedin.com/in/hussin-alswuij-94752b379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class = "bx bxl-linkedin"></i></a>
-                <a href = "https://www.instagram.com/hu_067?igsh=cTFiOGI1ajZsdmhq&utm_source=qr"><i class = "bx bxl-instagram"></i></a>
-                <a href = "https://github.com/Hussin067"><i class = "bx bxl-github"></i></a>
-                
-            </div>
-            <div class="btn-group">
-                <a href="#about">About me</a>
-                
-            </div>
-            <div class = "home-img">
-                <img src="finalimg.jpg" alt="">
-
-
-            </div>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>my name is <span>Hussin</span></h1>
+        <h3 class="text-animation">Welcome to my <span>Portfolio</span></h3>
+        <p>
+          this is my portfolio website I'm a beginner web developer and this is
+          my first project
+        </p>
+        <div class="home-img">
+          <img src="finalimg.jpg" alt="" />
         </div>
-
+        <div>
+            <h2 class="links">
+                my social media links
+            </h2>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/hussin-alswuij-94752b379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target=" "
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/hu_067?igsh=cTFiOGI1ajZsdmhq&utm_source=qr" target=" "
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Hussin067" target=" "
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
     </section>
-</body>
+    <section class="about" id="about">
+        <h2>About me </h2>
+        <div class = "info">
+            <p> I'm a network student at KFU with an interest in web development</p>
+            <p>I'm a beginner but I have some experience with other languages, including<span> C++ </span > , <span>Java </span> and <span> Python </span></p>
+
+        </div>
+    </section>
+    <section class="Projects" id="Projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-box">
+                <h3>Project 1</h3>
+                <h4>This is my first project in html and css</h4>
+                <p>The project is a simple portfolio in HTML and CSS, which you can see now. </p>
+
+                <a href="https://github.com/Hussin067/portfolio" target=" ">view project</a>
+            </div>
+            <div class="project-box">
+                <h3>Project 2</h3>
+                <h4>This is my second project it's on C++</h4>
+                <p>The project is a simple system to register students for courses. It will also generate a file containing the information for all the assigned students</p>
+
+
+                <a href="https://github.com/Hussin067/register-students" target=" ">view project</a>
+            </div>
+    <script src="script.js"></script>
+  </body>
 </html>
